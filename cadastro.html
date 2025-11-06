@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro - VidaPlus</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Cadastro - VidaPlus</h1>
+  </header>
+
+  <section class="container">
+    <button class="voltar" onclick="voltar()">⬅ Voltar</button>
+    <h2>Escolha o tipo de cadastro</h2><br> <br>
+    <div class="buttons">
+      <button class="cad-btn" data-type="paciente">Cadastrar Paciente</button>
+      <button class="cad-btn" data-type="profissional">Cadastrar Profissional de Saúde</button>
+      <button class="cad-btn" data-type="admin">Cadastrar Administração Hospitalar</button>
+      <button class="cad-btn" data-type="tele">Cadastrar Telemedicina</button>
+    </div>
+    <form id="formCadastro" class="hidden"></form>
+    <img src="cadastro.png" alt="Cadastro" class="img-cadastro">
+  </section>
+</body>
+</html>
